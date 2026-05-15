@@ -6,6 +6,6 @@ export default function robots() {
         allow: "/",
       },
     ],
-    sitemap: "https://veedolly.com/sitemap.xml",
+    sitemap: "https://victorychristian.com/sitemap.xml",
   };
 }

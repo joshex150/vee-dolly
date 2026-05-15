@@ -6,10 +6,10 @@ export const metadata = {
     title: "Books | Vee Dolly",
     description:
       "Books by Vee Dolly — romance, horror, and self-help titles from Victory Christian. Stories that stay with you long after the last page.",
-    url: "https://veedolly.com/books",
+    url: "https://victorychristian.com/books",
   },
   alternates: {
-    canonical: "https://veedolly.com/books",
+    canonical: "https://victorychristian.com/books",
   },
 };
 

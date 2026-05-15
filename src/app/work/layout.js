@@ -6,10 +6,10 @@ export const metadata = {
     title: "Writing | Vee Dolly",
     description:
       "Selected writings by Vee Dolly — romance, horror, and self-help fiction from Victory Christian. Each piece is a world you can enter and leave changed.",
-    url: "https://veedolly.com/work",
+    url: "https://victorychristian.com/work",
   },
   alternates: {
-    canonical: "https://veedolly.com/work",
+    canonical: "https://victorychristian.com/work",
   },
 };
 

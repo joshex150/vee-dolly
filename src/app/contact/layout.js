@@ -6,10 +6,10 @@ export const metadata = {
     title: "Contact | Vee Dolly",
     description:
       "Get in touch with Vee Dolly. For press, publishing enquiries, readings, and events — reach Victory Christian directly.",
-    url: "https://veedolly.com/contact",
+    url: "https://victorychristian.com/contact",
   },
   alternates: {
-    canonical: "https://veedolly.com/contact",
+    canonical: "https://victorychristian.com/contact",
   },
 };
 

@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const base = "https://veedolly.com";
+  const base = "https://victorychristian.com";
 
   return [
     {

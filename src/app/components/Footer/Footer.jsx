@@ -85,11 +85,11 @@ const Footer = () => {
             <div className="row">
               <div className="footer-press">
                 <p>For press &amp; publishing</p>
-                <p>press@veedolly.com</p>
+                <p>press@victorychristian.com</p>
               </div>
               <div className="footer-press">
                 <p>For readings &amp; events</p>
-                <p>bookings@veedolly.com</p>
+                <p>bookings@victorychristian.com</p>
               </div>
             </div>
           </div>

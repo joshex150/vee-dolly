@@ -6,10 +6,10 @@ export const metadata = {
     title: "About | Vee Dolly",
     description:
       "Meet Victory Christian — the woman behind Vee Dolly. Romance, horror, and self-help written from the inside out.",
-    url: "https://veedolly.com/about",
+    url: "https://victorychristian.com/about",
   },
   alternates: {
-    canonical: "https://veedolly.com/about",
+    canonical: "https://victorychristian.com/about",
   },
 };
 

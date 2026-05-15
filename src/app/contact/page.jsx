@@ -30,11 +30,11 @@ const Page = () => {
               <div className="col">
                 <div className="sub-col">
                   <AnimatedCopy>General Inquiries</AnimatedCopy>
-                  <AnimatedCopy>hello@veedolly.com</AnimatedCopy>
+                  <AnimatedCopy>hello@victorychristian.com</AnimatedCopy>
                 </div>
                 <div className="sub-col">
                   <AnimatedCopy>Press &amp; Publishing</AnimatedCopy>
-                  <AnimatedCopy>press@veedolly.com</AnimatedCopy>
+                  <AnimatedCopy>press@victorychristian.com</AnimatedCopy>
                 </div>
               </div>
             </div>
@@ -62,7 +62,7 @@ const Page = () => {
               <div className="col">
                 <div className="sub-col">
                   <AnimatedCopy>Readings &amp; events</AnimatedCopy>
-                  <AnimatedCopy>bookings@veedolly.com</AnimatedCopy>
+                  <AnimatedCopy>bookings@victorychristian.com</AnimatedCopy>
                 </div>
                 <div className="sub-col">
                   <AnimatedCopy>Response within 5 business days.</AnimatedCopy>

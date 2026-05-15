@@ -4,7 +4,7 @@ import Nav from "./components/Nav/Nav";
 
 import { ViewTransitions } from "next-view-transitions";
 
-const siteUrl = "https://veedolly.com";
+const siteUrl = "https://victorychristian.com";
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
