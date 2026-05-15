@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#180810;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0E060C;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C4778A;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#C4778A;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+
+  <!-- Subtle top accent line -->
+  <rect x="0" y="0" width="1200" height="2" fill="#C4778A" opacity="0.7" />
+
+  <!-- Ghost large text — bottom watermark -->
+  <text
+    x="600" y="560"
+    font-family="Georgia, serif"
+    font-size="220"
+    font-weight="900"
+    text-anchor="middle"
+    fill="#EDE3DC"
+    opacity="0.04"
+    letter-spacing="-4"
+  >VEE DOLLY</text>
+
+  <!-- Decorative left bar -->
+  <rect x="80" y="80" width="2" height="470" fill="#C4778A" opacity="0.4" />
+
+  <!-- Top label -->
+  <text
+    x="104" y="116"
+    font-family="'Courier New', monospace"
+    font-size="12"
+    fill="#C4778A"
+    letter-spacing="4"
+    text-transform="uppercase"
+  >VEE DOLLY — OFFICIAL WRITER PLATFORM</text>
+
+  <!-- Main name -->
+  <text
+    x="104" y="310"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="128"
+    font-weight="900"
+    fill="#EDE3DC"
+    letter-spacing="-3"
+  >Vee Dolly</text>
+
+  <!-- Divider line -->
+  <rect x="104" y="340" width="480" height="1" fill="#EDE3DC" opacity="0.15" />
+
+  <!-- Tagline -->
+  <text
+    x="104" y="384"
+    font-family="'Courier New', monospace"
+    font-size="18"
+    fill="#EDE3DC"
+    opacity="0.6"
+    letter-spacing="1"
+  >Romance · Horror · Self-Help</text>
+
+  <!-- Pull quote -->
+  <text
+    x="104" y="446"
+    font-family="Georgia, serif"
+    font-size="22"
+    font-style="italic"
+    fill="#EDE3DC"
+    opacity="0.45"
+  >"Stories that feel like someone finally knew."</text>
+
+  <!-- Bottom domain -->
+  <text
+    x="104" y="538"
+    font-family="'Courier New', monospace"
+    font-size="13"
+    fill="#C4778A"
+    letter-spacing="2"
+    opacity="0.8"
+  >veedolly.com</text>
+
+  <!-- Right decorative element — pink glow circle -->
+  <circle cx="980" cy="315" r="220" fill="#C4778A" opacity="0.04" />
+  <circle cx="980" cy="315" r="140" fill="#C4778A" opacity="0.04" />
+  <circle cx="980" cy="315" r="60" fill="#C4778A" opacity="0.06" />
+
+  <!-- Right monogram -->
+  <text
+    x="980" y="355"
+    font-family="Georgia, serif"
+    font-size="140"
+    font-weight="900"
+    text-anchor="middle"
+    fill="#EDE3DC"
+    opacity="0.08"
+  >VD</text>
+</svg>
