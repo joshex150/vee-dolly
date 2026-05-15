@@ -1,9 +1,107 @@
 :root {
   --bg: #FAF7F5;
   --copy: #1A0C12;
-  --pink: #B8385A;
-  --pink-soft: #F5E4E9;
+  --pink: #C4778A;
+  --pink-soft: #F0E3E7;
   --dark: #180810;
+}
+
+html.dark {
+  --bg: #100B0E;
+  --copy: #EDE3DC;
+  --pink: #C4778A;
+  --pink-soft: #1C1018;
+  --dark: #080508;
+}
+
+/* Menu overlay is always dark — text must stay light in both modes */
+html.dark .menu-overlay h1,
+html.dark .menu-overlay-bar a,
+html.dark .menu-overlay-bar p,
+html.dark .showreel a,
+html.dark .media-link a {
+  color: var(--copy);
+}
+
+/* Preloader words sit on a dark bg — always keep them light */
+html.dark .preloader-name-word span {
+  color: var(--copy);
+}
+
+/* Letters CTA section — light text on the pink bg */
+html.dark .home-letters-cta h3,
+html.dark .home-letters-cta p,
+html.dark .home-letters-cta input,
+html.dark .home-letters-cta input::placeholder {
+  color: var(--copy) !important;
+}
+
+/* Background/hero images dim so the dark --bg shows through */
+html.dark .hero-img img,
+html.dark .about-hero-bg img,
+html.dark .contact-banner-bg img,
+html.dark .project-hero-img-wrapper img,
+html.dark .project-preview-img-wrapper img,
+html.dark .about-outro-img img,
+html.dark .project-banner-img img {
+  opacity: 0.08;
+}
+
+/* Content images soften slightly */
+html.dark .home-about-img img,
+html.dark .about-copy-img-wrapper img,
+html.dark .founder-image img,
+html.dark .project-info-img-1-wrapper img,
+html.dark .logo-item img {
+  opacity: 0.75;
+}
+
+/* Hardcoded rgba(26, 12, 18) copy-colour borders → invert for dark */
+html.dark .home-section-header,
+html.dark .home-writing-item,
+html.dark .contact-details .row,
+html.dark .book-item,
+html.dark .letters-form-wrapper,
+html.dark .letter-item,
+html.dark .letters-archive-header,
+html.dark .project-info,
+html.dark .stat {
+  border-color: rgba(237, 227, 220, 0.12);
+}
+
+/* Footer text — var(--bg) reads as near-black in dark mode, override to --copy */
+html.dark .footer,
+html.dark .footer a,
+html.dark .footer p,
+html.dark .footer h1,
+html.dark .footer h2,
+html.dark .footer h3 {
+  color: var(--copy);
+}
+
+html.dark .footer .subscribe-form input,
+html.dark .footer .subscribe-form ::placeholder {
+  color: var(--copy);
+}
+
+/* Footer logo ghost text — keep faint but use light tint on dark bg */
+html.dark .footer-logo h1 {
+  color: rgba(237, 227, 220, 0.07);
+}
+
+/* Footer subscribe button text stays on pink bg — keep it readable */
+html.dark .footer .subscribe-form button {
+  color: var(--bg);
+}
+
+/* Nav menu hover in dark mode — needs higher specificity than the base override */
+html.dark .menu-overlay h1:hover {
+  color: var(--pink);
+}
+
+/* Project page newsletter input border */
+html.dark .writing-cta-form {
+  border-bottom-color: rgba(237, 227, 220, 0.2);
 }
 
 ::view-transition-old(root),

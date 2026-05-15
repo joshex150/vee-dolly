@@ -5,6 +5,7 @@
   overflow-x: hidden;
   background-color: var(--dark);
   padding-top: 6em;
+  padding-bottom: 2em;
 }
 
 /* Override all text to cream inside the dark footer */

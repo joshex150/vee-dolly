@@ -1,0 +1,40 @@
+.theme-toggle {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.theme-toggle-track {
+  position: relative;
+  width: 36px;
+  height: 18px;
+  border-radius: 9px;
+  border: 1px solid var(--copy);
+  transition: border-color 0.4s ease;
+  display: block;
+}
+
+.theme-toggle-thumb {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--copy);
+  transition: transform 0.4s cubic-bezier(0.76, 0, 0.24, 1),
+    background-color 0.4s ease;
+}
+
+.theme-toggle.is-dark .theme-toggle-thumb {
+  transform: translateX(18px);
+  background-color: var(--pink);
+}
+
+.theme-toggle.is-dark .theme-toggle-track {
+  border-color: var(--pink);
+}

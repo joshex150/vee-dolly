@@ -5,6 +5,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import CustomEase from "gsap/dist/CustomEase";
 import { useTransitionRouter } from "next-view-transitions";
+import ThemeToggle from "../ThemeToggle/ThemeToggle";
 
 const Nav = () => {
   const router = useTransitionRouter();
@@ -246,19 +247,22 @@ const Nav = () => {
     <>
       <nav ref={navRef}>
         <div className="logo">
-          <a href="/" onClick={(e) => handleNavigation(e, "/")}>
+          <a href="/" draggable={false} onClick={(e) => handleNavigation(e, "/")}>
             Vee Dolly
           </a>
         </div>
-        <div className="menu-toggle-open" ref={menuOpenBtnRef}>
-          <p>Menu</p>
+        <div className="nav-right">
+          <ThemeToggle />
+          <div className="menu-toggle-open" ref={menuOpenBtnRef}>
+            <p>Menu</p>
+          </div>
         </div>
       </nav>
 
       <div className="menu-overlay" ref={menuOverlayRef}>
         <div className="menu-overlay-bar" ref={menuOverlayBarRef}>
           <div className="logo">
-            <a href="/">Vee Dolly</a>
+            <a href="/" draggable={false} onClick={(e) => handleNavigation(e, "/")}>Vee Dolly</a>
           </div>
           <div className="menu-toggle-close" ref={menuCloseBtnRef}>
             <p>Close</p>

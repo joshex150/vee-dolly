@@ -13,8 +13,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <ViewTransitions>
-      <html lang="en">
+      <html lang="en" suppressHydrationWarning>
         <body>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `(function(){try{if(localStorage.getItem('vd-theme')==='dark')document.documentElement.classList.add('dark');}catch(e){}})();`,
+            }}
+          />
           <Nav />
           {children}
         </body>
