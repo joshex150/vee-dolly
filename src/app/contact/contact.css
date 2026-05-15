@@ -1,0 +1,101 @@
+.contact-hero {
+  position: relative;
+  width: 100vw;
+  height: 90svh;
+  overflow: hidden;
+  background-color: var(--bg);
+}
+
+.contact-hero .container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.contact-details {
+  padding: 8em 0;
+  background-color: var(--bg);
+}
+
+.contact-details .container {
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+}
+
+.contact-details .row:not(:last-child) {
+  border-bottom: 1px solid rgba(26, 12, 18, 0.1);
+}
+
+.contact-details .row {
+  display: flex;
+  gap: 2em;
+  padding-bottom: 4em;
+}
+
+.contact-details .row:last-child {
+  padding-bottom: 2em;
+}
+
+.contact-details .row .col {
+  flex: 1;
+  display: flex;
+  gap: 2em;
+}
+
+.contact-details .row .col .sub-col {
+  flex: 1;
+}
+
+.contact-details p {
+  text-transform: none;
+  font-size: 14px;
+  opacity: 0.65;
+}
+
+/* Category label in first col */
+.contact-details .row > .col:first-child p {
+  text-transform: uppercase;
+  font-size: 13px;
+  opacity: 0.4;
+  letter-spacing: 0.05em;
+}
+
+/* Email links */
+.contact-details a {
+  color: var(--pink);
+  transition: opacity 0.2s ease;
+}
+
+.contact-details a:hover {
+  opacity: 0.65;
+}
+
+.contact-banner {
+  position: relative;
+  width: 100vw;
+  height: 100svh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-banner-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1100px) {
+  .contact-details .row,
+  .contact-details .row .col {
+    flex-direction: column;
+  }
+
+  .contact-details .row .col {
+    gap: 1em;
+  }
+}
